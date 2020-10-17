@@ -7,7 +7,6 @@
 ## I'm a Backend Developer
 - 🌱  I’m currently learning everything
 - 👯  I’m looking to collaborate with other
-### Connect with me:
 <br />
 
 ### Languages and Tools:
@@ -29,7 +28,7 @@
 <br />
 
 ---
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=umars28&langs_count=8)
 <img align="left" alt="Umar Sabirin" src="https://github-readme-stats.vercel.app/api?username=umars28&show_icons=true&hide_border=true" />
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=umars28&langs_count=8)
 
 [website]: https://umars28.github.io/My-Portfolio/
