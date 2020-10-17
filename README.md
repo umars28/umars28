@@ -8,11 +8,6 @@
 - 🌱  I’m currently learning everything
 - 👯  I’m looking to collaborate with other
 ### Connect with me:
-
-[<img align="left" alt="codeSTACKr.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />]
-[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />]
-[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />]
-
 <br />
 
 ### Languages and Tools:
@@ -34,9 +29,7 @@
 <br />
 
 ---
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=umars28&langs_count=8)]
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=umars28&langs_count=8)
 <img align="left" alt="Umar Sabirin" src="https://github-readme-stats.vercel.app/api?username=umars28&show_icons=true&hide_border=true" />
 
 [website]: https://umars28.github.io/My-Portfolio/
-[instagram]: https://instagram.com/umar_s28/
-[facebook]: https://web.facebook.com/umarc.speedy.1/
