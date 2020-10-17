@@ -3,21 +3,10 @@
 <!--
 **umars28/umars28** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
 
 ### Hi there, I'm Umar Sabirin 👋
 
-## I'm a Developer and Software Engineer!
+## I'm a Backend Developer
 - 🌱  I’m currently learning everything
 - 👯  I’m looking to collaborate with other
 ### Connect with me:
@@ -59,8 +48,8 @@ Here are some ideas to get you started:
 
 ---
 
-<img align="left" alt="Adji Pangestu Github Stats" src="https://github-readme-stats.vercel.app/api?username=adjipangestu&show_icons=true&hide_border=true" />
+<img align="left" alt="Umar Sabirin" src="https://github-readme-stats.vercel.app/api?username=umars28&show_icons=true&hide_border=true" />
 
 [website]: https://umars28.github.io/My-Portfolio/
 [instagram]: https://instagram.com/umar_s28/
-[facebook]: 
+[facebook]: https://web.facebook.com/umarc.speedy.1/
