@@ -8,7 +8,6 @@
 - 🌱  I’m currently learning everything
 - 👯  I’m looking to collaborate with other
 <br />
-
 ### Languages and Tools:
 
 [<img align="left" alt="Php" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />][website]
@@ -28,7 +27,7 @@
 <br />
 
 ---
-<img align="left" alt="Umar Sabirin" src="https://github-readme-stats.vercel.app/api?username=umars28&show_icons=true&hide_border=true" />
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=umars28&langs_count=8)
+<img align="left" alt="Umar Sabirin" src="https://github-readme-stats.vercel.app/api?username=umars28&show_icons=true&hide_border=true" />
 
 [website]: https://umars28.github.io/My-Portfolio/
