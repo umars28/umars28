@@ -29,7 +29,7 @@
 <br />
 
 ---
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=umars28&langs_count=8)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=umars28&layout=compact&theme=radical)
 <img align="left" alt="Umar Sabirin" src="https://github-readme-stats.vercel.app/api?username=umars28&show_icons=true&theme=radical" />
 
 [website]: https://umars28.github.io/My-Portfolio/
