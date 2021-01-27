@@ -24,7 +24,6 @@
 [<img align="left" alt="Laravel" width="26px" src="https://raw.githubusercontent.com/github/explore/e94815998e4e0713912fed477a1f346ec04c3da2/topics/laravel/laravel.png" />][website]
 [<img align="left" alt="Javascript" width="26px" src="https://raw.githubusercontent.com/github/explore/e94815998e4e0713912fed477a1f346ec04c3da2/topics/javascript/javascript.png" />][website]
 [<img align="left" alt="Jquery" width="26px" src="https://raw.githubusercontent.com/github/explore/e94815998e4e0713912fed477a1f346ec04c3da2/topics/jquery/jquery.png" />][website]
-https://wakatime.com/badge/github/umars28/desadigital.svg
 <br />
 <br />
 
