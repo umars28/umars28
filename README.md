@@ -24,7 +24,14 @@
 [<img align="left" alt="Laravel" width="26px" src="https://raw.githubusercontent.com/github/explore/e94815998e4e0713912fed477a1f346ec04c3da2/topics/laravel/laravel.png" />][website]
 [<img align="left" alt="Javascript" width="26px" src="https://raw.githubusercontent.com/github/explore/e94815998e4e0713912fed477a1f346ec04c3da2/topics/javascript/javascript.png" />][website]
 [<img align="left" alt="Jquery" width="26px" src="https://raw.githubusercontent.com/github/explore/e94815998e4e0713912fed477a1f346ec04c3da2/topics/jquery/jquery.png" />][website]
-
+https://wakatime.com/badge/github/umars28/desadigital.svg
+[![time tracker](https://wakatime.com/badge/github/umars28/desadigital.svg)](https://wakatime.com/badge/github/umars28/desadigital)
+!https://wakatime.com/badge/github/umars28/desadigital.svg!:https://wakatime.com/badge/github/umars28/desadigital
+{<img src="https://wakatime.com/badge/github/umars28/desadigital.svg" alt="time tracker" />}[https://wakatime.com/badge/github/umars28/desadigital]
+image:https://wakatime.com/badge/github/umars28/desadigital.svg["time tracker", link="https://wakatime.com/badge/github/umars28/desadigital"]
+.. image:: https://wakatime.com/badge/github/umars28/desadigital.svg
+    :target: https://wakatime.com/badge/github/umars28/desadigital
+    =for html <a href="https://wakatime.com/badge/github/umars28/desadigital"><img src="https://wakatime.com/badge/github/umars28/desadigital.svg"></a>
 <br />
 <br />
 
