@@ -1,9 +1,3 @@
-<!--
-**umars28/umars28** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
-
-
-### Hi there, I'm Umar Sabirin 👋
-
 ## About Me
 👋 Hi, I'm Umar Sabirin, a Backend Developer with over 5 years of experience.
 
@@ -57,6 +51,16 @@
 ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white&style=for-the-badge)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge)
 
+### Message Broker
+![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-FF6600?logo=rabbitmq&logoColor=white&style=for-the-badge)
+
+### Logging & Monitoring
+![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?logo=elasticsearch&logoColor=white&style=for-the-badge)
+![Logstash](https://img.shields.io/badge/-Logstash-005571?logo=elastic&logoColor=white&style=for-the-badge)
+![Kibana](https://img.shields.io/badge/-Kibana-005571?logo=kibana&logoColor=white&style=for-the-badge)
+![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?logo=prometheus&logoColor=white&style=for-the-badge)
+![Grafana](https://img.shields.io/badge/-Grafana-F46800?logo=grafana&logoColor=white&style=for-the-badge)
+
 ### Application Pattern
 ![Repository Pattern](https://img.shields.io/badge/-Repository%20Pattern-0A0A0A?style=for-the-badge)
 ![Service Pattern](https://img.shields.io/badge/-Service%20Pattern-0A0A0A?style=for-the-badge)
@@ -66,5 +70,7 @@
 ![TDD](https://img.shields.io/badge/-TDD-0A0A0A?style=for-the-badge)
 ![Monolith](https://img.shields.io/badge/-Monolith-0A0A0A?style=for-the-badge)
 ![Microservice](https://img.shields.io/badge/-Microservice-0A0A0A?style=for-the-badge)
+![Event Driven](https://img.shields.io/badge/-Event%20Driven%20Architecture-0A0A0A?style=for-the-badge)
+
 
 
