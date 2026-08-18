@@ -1,119 +1,114 @@
-## About Me
-👋 Hi, I'm Umar Sabirin, a Backend Developer with over 5 years of experience.
+<div align="center">
 
-💼 2 years of experience working in a corporate environment.
+# Umar Sabirin
 
-💻 Extensive freelance experience, sharpening my ability to develop solutions for diverse client needs.
+**DevOps Engineer** &nbsp;·&nbsp; Platform &nbsp;·&nbsp; SRE &nbsp;·&nbsp; Cloud
 
-✍️ Passionate about writing clean, efficient, and maintainable code.
+Infrastructure from bare-metal to cloud — with AI wired into CI/CD, observability, and incident response.
 
-🎯 Committed to creating applications that drive success and add real value.
+<a href="https://www.linkedin.com/in/umar-sabirin-5896481a5"><img src="https://img.shields.io/badge/LinkedIn-umar--sabirin-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn"></a>
+<a href="mailto:umarsabirin369@gmail.com"><img src="https://img.shields.io/badge/Email-umarsabirin369@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email"></a>
+<img src="https://img.shields.io/badge/Location-Indonesia%20·%20GMT%2B7-30A14C?style=flat-square&logo=googlemaps&logoColor=white&labelColor=0D1117" alt="Location">
+<img src="https://img.shields.io/badge/Status-open%20to%20remote-8957E5?style=flat-square&labelColor=0D1117" alt="Status">
+
+</div>
 
 ---
 
-## 🧰 Tech Stack
+```console
+$ whoami
+umar sabirin — devops engineer @ Apple Developer Institute × S-Quantum Engine
 
-<details>
-<summary>🎨 <strong>Front End Fundamental</strong></summary>
+$ cat /etc/profile.d/umar.env
+EXPERIENCE="5 years — backend → platform → devops"
+FOCUS="CI/CD · IaC · observability · hardening · virtualization"
+PRIMARY_LANG="Go"
+SCALE="19,400+ concurrent streams · 194 agents · multi-tenant"
+AI_IN_THE_LOOP="true"
 
-![HTML](https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge)
-![CSS](https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
-![jQuery](https://img.shields.io/badge/-jQuery-0769AD?logo=jquery&logoColor=white&style=for-the-badge)
+$ uptime
+building things that stay up
+```
 
-</details>
+## Delivery pipeline I build
 
-<details>
-<summary>🖥️ <strong>Backend Language</strong></summary>
+```mermaid
+flowchart LR
+    A["Code · PR"] --> B["Lint · Unit · Integration · Smoke"]
+    B --> C["SAST · DAST · Trivy · Snyk"]
+    C --> D["Infracost gate"]
+    D --> E["Packer golden image<br/>CIS · STIG hardened"]
+    E --> F["Terraform · IaC"]
+    F --> G["Ansible · CaC"]
+    G --> H["Kubernetes · Docker"]
+    G --> I["Proxmox · QEMU/KVM · bare-metal"]
+    H --> J["Prometheus · Grafana · Loki · Tempo"]
+    I --> J
+    J --> K["ELK · eBPF · OpenTelemetry"]
+    K --> L(["AI · root-cause + auto-fix"])
+    L -.->|feedback| B
+```
 
-![PHP](https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white&style=for-the-badge)
-![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=for-the-badge)
-![Groovy](https://img.shields.io/badge/-Groovy-4298B8?logo=apachegroovy&logoColor=white&style=for-the-badge)
-![Go](https://img.shields.io/badge/-Go-00ADD8?logo=go&logoColor=white&style=for-the-badge)
+## The stack, by layer
 
-</details>
+| Layer | Tooling |
+| :--- | :--- |
+| `app` | Go *(primary)* · PHP / Laravel · Java / Spring Boot · Groovy / Grails · Bash |
+| `ci-cd` | Jenkins · GitHub Actions · GitLab CI · Bitbucket |
+| `iac-cac` | Terraform · Ansible · Packer · cloud-init · PXE / netboot |
+| `runtime` | Docker · Kubernetes · Proxmox · QEMU / KVM (QMP) · LXC / LXD · ZFS |
+| `cloud` | AWS — EC2 · EKS · S3 · RDS · IAM · VPC |
+| `data` | PostgreSQL · MySQL · MongoDB · Redis · Elasticsearch · Kafka · RabbitMQ · SQS |
+| `observability` | Prometheus · Grafana · Loki · Tempo · Mimir · Pyroscope · ELK · eBPF · OpenTelemetry |
+| `security` | CIS / STIG hardening · Vault · OPA / Rego · Kyverno · Trivy · Snyk · SonarQube · SAST / DAST · mTLS · 2FA |
+| `network` | Nginx · HAProxy · nftables · OpenVPN · DNS · IPv6 / SLAAC |
+| `reliability` | SLI / SLO / SLA · error budgets · incident response · RCA · postmortems · MTTR / MTTD |
+| `ai` | LLM-based PR review · AI-assisted CI/CD remediation · AI root-cause analysis |
 
-<details>
-<summary>⚙️ <strong>Backend Framework</strong></summary>
+## Signals from production
 
-![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?logo=laravel&logoColor=white&style=for-the-badge)
-![Grails](https://img.shields.io/badge/-Grails-5BAF47?logo=grails&logoColor=white&style=for-the-badge)
-![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?logo=springboot&logoColor=white&style=for-the-badge)
+| Result | What it was | Where |
+| :--- | :--- | :--- |
+| **19,400+** concurrent streams | Go engine multiplexing gRPC/SSE from 194 agents at ms latency | Maxcloud |
+| **~83%** faster pipelines | Parallelization, dependency caching, selective re-runs in Jenkins | ADI × S-Quantum |
+| **~300%** faster VM boot | Custom Go orchestrator over QEMU/QMP — boot down to ~2s | Maxcloud |
+| **45 min → <5s** | Tenant branding deploys via a JSON-driven config system, 6+ tenants | Maxcloud |
+| **~40%** less provisioning time | Self-service LBaaS on HAProxy + nftables at the kernel level | Maxcloud |
+| **2,683 req/s** | Kafka-backed async pipeline, ~3 orders of magnitude over the sync baseline | Freelance |
+| **~99.9%+** payment availability | Multi-gateway failover with rate limiting and 2FA | Maxcloud |
+| **~50%** faster queries | Targeted indexing + SQL refactoring on high-traffic multi-tenant tables | Fairtech |
 
-</details>
+## What I'm doing now
 
-<details>
-<summary>💾 <strong>Database & Caching</strong></summary>
+- Building infrastructure CI/CD in **Jenkins** for Terraform and Ansible — lint, test, security, and cost gates before anything is provisioned.
+- Automating hardened golden images with **Packer**, benchmarked against CIS/STIG and scanned with Trivy.
+- Wiring **AI** into monitoring and CI/CD for root-cause detection and auto-remediation.
+- Cost- and security-aware observability with **Prometheus, Grafana, and ELK** plus automated alerting.
 
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?logo=postgresql&logoColor=white&style=for-the-badge)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge)
-![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?logo=elasticsearch&logoColor=white&style=for-the-badge)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?logo=redis&logoColor=white&style=for-the-badge)
+## Selected repositories
 
-</details>
+| Repo | What it is |
+| :--- | :--- |
+| [`job-board`](https://github.com/umars28/job-board) | Spring Boot microservices platform — modular services, independent deploys |
+| [`spring-sync-vs-async-benchmark`](https://github.com/umars28/spring-sync-vs-async-benchmark) | Benchmark of 5 concurrency strategies; Kafka path sustained 2,683 req/s |
+| [`mock-pilot`](https://github.com/umars28/mock-pilot) | Pluggable mock API server for REST and GraphQL with dynamic config |
+| [`personal-finance-tracker`](https://github.com/umars28/personal-finance-tracker) | Laravel REST API on PostgreSQL + Redis, containerized with Docker |
 
-<details>
-<summary>🔗 <strong>API Development</strong></summary>
+## Activity
 
-![REST API](https://img.shields.io/badge/-REST%20API-009688?logo=rest&logoColor=white&style=for-the-badge)
-![Swagger](https://img.shields.io/badge/-Swagger%20(OpenAPI)-85EA2D?logo=swagger&logoColor=black&style=for-the-badge)
+<div align="center">
 
-</details>
+<img height="150" src="https://github-readme-stats.vercel.app/api?username=umars28&show_icons=true&hide_border=true&bg_color=00000000&title_color=58A6FF&icon_color=58A6FF&text_color=768390&count_private=true" alt="GitHub stats">
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umars28&layout=compact&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=768390&langs_count=8" alt="Top languages">
 
-<details>
-<summary>🔑 <strong>Version Control System</strong></summary>
+</div>
 
-![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=for-the-badge)
-![GitLab](https://img.shields.io/badge/-GitLab-FC6D26?logo=gitlab&logoColor=white&style=for-the-badge)
-![Bitbucket](https://img.shields.io/badge/-Bitbucket-0052CC?logo=bitbucket&logoColor=white&style=for-the-badge)
+---
 
-</details>
+<div align="center">
 
-<details>
-<summary>✅ <strong>Testing</strong></summary>
+**Education** — B.Sc. Information Systems, Hasanuddin University · GPA 3.82 / 4.00
 
-![PHPUnit](https://img.shields.io/badge/-PHPUnit-6C3?logo=php&logoColor=white&style=for-the-badge)
+<sub>Reach me at <a href="mailto:umarsabirin369@gmail.com">umarsabirin369@gmail.com</a> or on <a href="https://www.linkedin.com/in/umar-sabirin-5896481a5">LinkedIn</a>.</sub>
 
-</details>
-
-<details>
-<summary>🚀 <strong>DevOps & Deployment</strong></summary>
-
-![GitLab CI](https://img.shields.io/badge/-GitLab%20CI-FC6D26?logo=gitlab&logoColor=white&style=for-the-badge)
-![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white&style=for-the-badge)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge)
-
-</details>
-
-<details>
-<summary>📩 <strong>Message Broker</strong></summary>
-
-![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-FF6600?logo=rabbitmq&logoColor=white&style=for-the-badge)
-
-</details>
-
-<details>
-<summary>📊 <strong>Logging & Monitoring</strong></summary>
-
-![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?logo=elasticsearch&logoColor=white&style=for-the-badge)
-![Logstash](https://img.shields.io/badge/-Logstash-005571?logo=elastic&logoColor=white&style=for-the-badge)
-![Kibana](https://img.shields.io/badge/-Kibana-005571?logo=kibana&logoColor=white&style=for-the-badge)
-![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?logo=prometheus&logoColor=white&style=for-the-badge)
-![Grafana](https://img.shields.io/badge/-Grafana-F46800?logo=grafana&logoColor=white&style=for-the-badge)
-
-</details>
-
-<details>
-<summary>🏗️ <strong>Patterns</strong></summary>
-
-![Repository Pattern](https://img.shields.io/badge/-Repository%20Pattern-0A0A0A?style=for-the-badge)
-![Service Pattern](https://img.shields.io/badge/-Service%20Pattern-0A0A0A?style=for-the-badge)
-![MVC](https://img.shields.io/badge/-MVC-0A0A0A?style=for-the-badge)
-![TDD](https://img.shields.io/badge/-TDD-0A0A0A?style=for-the-badge)
-![Monolith](https://img.shields.io/badge/-Monolith-0A0A0A?style=for-the-badge)
-![Microservice](https://img.shields.io/badge/-Microservice-0A0A0A?style=for-the-badge)
-![Event Driven](https://img.shields.io/badge/-Event%20Driven%20Architecture-0A0A0A?style=for-the-badge)
-
-</details>
+</div>
