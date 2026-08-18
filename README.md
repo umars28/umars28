@@ -33,20 +33,27 @@ building things that stay up
 ## Delivery pipeline I build
 
 ```mermaid
-flowchart LR
-    A["Code · PR"] --> B["Lint · Unit · Integration · Smoke"]
-    B --> C["SAST · DAST · Trivy · Snyk"]
-    C --> D["Infracost gate"]
-    D --> E["Packer golden image<br/>CIS · STIG hardened"]
-    E --> F["Terraform · IaC"]
-    F --> G["Ansible · CaC"]
-    G --> H["Kubernetes · Docker"]
-    G --> I["Proxmox · QEMU/KVM · bare-metal"]
-    H --> J["Prometheus · Grafana · Loki · Tempo"]
-    I --> J
-    J --> K["ELK · eBPF · OpenTelemetry"]
-    K --> L(["AI · root-cause + auto-fix"])
-    L -.->|feedback| B
+flowchart TB
+    A["<b>commit</b> · pull request"]
+    B["<b>ci gates</b><br/>lint · unit · integration · smoke"]
+    C["<b>security + cost gates</b><br/>SAST · DAST · Trivy · Snyk · Infracost"]
+    D["<b>golden image</b><br/>Packer · CIS / STIG hardened"]
+    E["<b>provision</b><br/>Terraform IaC · Ansible CaC"]
+    F["Kubernetes · Docker"]
+    G["Proxmox · QEMU / KVM<br/>bare-metal"]
+    H["<b>observe</b><br/>Prometheus · Grafana · Loki<br/>Tempo · ELK · eBPF"]
+    I(["<b>AI</b> · root-cause + auto-remediation"])
+
+    A --> B --> C --> D --> E
+    E --> F
+    E --> G
+    F --> H
+    G --> H
+    H --> I
+    I -.->|feedback| B
+
+    classDef edge stroke-width:2px
+    class A,I edge
 ```
 
 ## The stack, by layer
@@ -94,20 +101,14 @@ flowchart LR
 | [`mock-pilot`](https://github.com/umars28/mock-pilot) | Pluggable mock API server for REST and GraphQL with dynamic config |
 | [`personal-finance-tracker`](https://github.com/umars28/personal-finance-tracker) | Laravel REST API on PostgreSQL + Redis, containerized with Docker |
 
-## Activity
-
-<div align="center">
-
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=umars28&show_icons=true&hide_border=true&bg_color=00000000&title_color=58A6FF&icon_color=58A6FF&text_color=768390&count_private=true" alt="GitHub stats">
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umars28&layout=compact&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=768390&langs_count=8" alt="Top languages">
-
-</div>
-
 ---
 
 <div align="center">
 
 **Education** — B.Sc. Information Systems, Hasanuddin University · GPA 3.82 / 4.00
+
+<img src="https://img.shields.io/github/followers/umars28?style=flat-square&logo=github&label=followers&labelColor=0D1117&color=1F6FEB" alt="Followers">
+<img src="https://img.shields.io/github/stars/umars28?affiliations=OWNER&style=flat-square&logo=github&label=stars&labelColor=0D1117&color=1F6FEB" alt="Stars">
 
 <sub>Reach me at <a href="mailto:umarsabirin369@gmail.com">umarsabirin369@gmail.com</a> or on <a href="https://www.linkedin.com/in/umar-sabirin-5896481a5">LinkedIn</a>.</sub>
 
