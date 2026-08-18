@@ -36,7 +36,7 @@ building things that stay up
 flowchart TB
     A["COMMIT<br/>pull request"]
     B["CI GATES<br/>lint · unit · integration"]
-    C["SECURITY + COST<br/>SAST · DAST · Trivy · Infracost"]
+    C["SECURITY + COST<br/>SAST · DAST · Trivy<br/>Snyk · Infracost"]
     D["GOLDEN IMAGE<br/>Packer · CIS / STIG"]
     E["PROVISION<br/>Terraform · Ansible"]
     F["Kubernetes · Docker"]
