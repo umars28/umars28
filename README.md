@@ -34,15 +34,15 @@ building things that stay up
 
 ```mermaid
 flowchart TB
-    A["<b>commit</b> · pull request"]
-    B["<b>ci gates</b><br/>lint · unit · integration · smoke"]
-    C["<b>security + cost gates</b><br/>SAST · DAST · Trivy · Snyk · Infracost"]
-    D["<b>golden image</b><br/>Packer · CIS / STIG hardened"]
-    E["<b>provision</b><br/>Terraform IaC · Ansible CaC"]
+    A["COMMIT<br/>pull request"]
+    B["CI GATES<br/>lint · unit · integration"]
+    C["SECURITY + COST<br/>SAST · DAST · Trivy · Infracost"]
+    D["GOLDEN IMAGE<br/>Packer · CIS / STIG"]
+    E["PROVISION<br/>Terraform · Ansible"]
     F["Kubernetes · Docker"]
-    G["Proxmox · QEMU / KVM<br/>bare-metal"]
-    H["<b>observe</b><br/>Prometheus · Grafana · Loki<br/>Tempo · ELK · eBPF"]
-    I(["<b>AI</b> · root-cause + auto-remediation"])
+    G["Proxmox · QEMU / KVM"]
+    H["OBSERVE<br/>Prometheus · Grafana · Loki<br/>Tempo · ELK · eBPF"]
+    I(["AI<br/>root-cause · auto-fix"])
 
     A --> B --> C --> D --> E
     E --> F
