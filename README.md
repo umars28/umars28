@@ -2,18 +2,16 @@
 
 # Umar Sabirin
 
-**DevOps Engineer** &nbsp;·&nbsp; Platform &nbsp;·&nbsp; SRE &nbsp;·&nbsp; Cloud
+### DevOps Engineer &nbsp;·&nbsp; Platform &nbsp;·&nbsp; SRE &nbsp;·&nbsp; Cloud
 
-Infrastructure from bare-metal to cloud — with AI wired into CI/CD, observability, and incident response.
+**I build infrastructure from bare-metal to cloud — with AI wired into CI/CD, observability, and incident response.**
 
-<a href="https://www.linkedin.com/in/umar-sabirin-5896481a5"><img src="https://img.shields.io/badge/LinkedIn-umar--sabirin-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn"></a>
-<a href="mailto:umarsabirin369@gmail.com"><img src="https://img.shields.io/badge/Email-umarsabirin369@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email"></a>
-<img src="https://img.shields.io/badge/Location-Indonesia%20·%20GMT%2B7-30A14C?style=flat-square&logo=googlemaps&logoColor=white&labelColor=0D1117" alt="Location">
-<img src="https://img.shields.io/badge/Status-open%20to%20remote-8957E5?style=flat-square&labelColor=0D1117" alt="Status">
+<a href="https://www.linkedin.com/in/umar-sabirin-5896481a5"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:umarsabirin369@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<img src="https://img.shields.io/badge/Indonesia_·_GMT%2B7-30A14C?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location">
+<img src="https://img.shields.io/badge/Open_to_remote-8957E5?style=for-the-badge&logo=protondrive&logoColor=white" alt="Open to remote">
 
 </div>
-
----
 
 ```console
 $ whoami
@@ -30,7 +28,58 @@ $ uptime
 building things that stay up
 ```
 
-## Delivery pipeline I build
+## 🧰 Tech Stack
+
+<div align="center">
+<table>
+<tr>
+<td align="right"><b>&nbsp;Cloud&nbsp;&&nbsp;Systems&nbsp;</b></td>
+<td><img src="https://skillicons.dev/icons?i=aws,linux,docker,kubernetes,nginx" alt="AWS, Linux, Docker, Kubernetes, Nginx"></td>
+</tr>
+<tr>
+<td align="right"><b>&nbsp;IaC&nbsp;&&nbsp;CI/CD&nbsp;</b></td>
+<td><img src="https://skillicons.dev/icons?i=terraform,ansible,jenkins,githubactions,gitlab,git" alt="Terraform, Ansible, Jenkins, GitHub Actions, GitLab CI, Git"></td>
+</tr>
+<tr>
+<td align="right"><b>&nbsp;Observability&nbsp;</b></td>
+<td><img src="https://skillicons.dev/icons?i=prometheus,grafana,elasticsearch" alt="Prometheus, Grafana, Elasticsearch"></td>
+</tr>
+<tr>
+<td align="right"><b>&nbsp;Languages&nbsp;</b></td>
+<td><img src="https://skillicons.dev/icons?i=go,php,java,spring,laravel,bash" alt="Go, PHP, Java, Spring Boot, Laravel, Bash"></td>
+</tr>
+<tr>
+<td align="right"><b>&nbsp;Data&nbsp;&&nbsp;Messaging&nbsp;</b></td>
+<td><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,kafka,rabbitmq" alt="PostgreSQL, MySQL, MongoDB, Redis, Kafka, RabbitMQ"></td>
+</tr>
+</table>
+</div>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Packer-02A8EF?style=for-the-badge&logo=packer&logoColor=white" alt="Packer">
+<img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox">
+<img src="https://img.shields.io/badge/QEMU_/_KVM-FF6600?style=for-the-badge&logo=qemu&logoColor=white" alt="QEMU/KVM">
+<img src="https://img.shields.io/badge/cloud--init-1B3A57?style=for-the-badge&logo=cloudfoundry&logoColor=white" alt="cloud-init">
+<img src="https://img.shields.io/badge/ZFS-1E88E5?style=for-the-badge&logo=openzfs&logoColor=white" alt="ZFS">
+<br>
+<img src="https://img.shields.io/badge/Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black" alt="Vault">
+<img src="https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=trivy&logoColor=white" alt="Trivy">
+<img src="https://img.shields.io/badge/Snyk-4C4A73?style=for-the-badge&logo=snyk&logoColor=white" alt="Snyk">
+<img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white" alt="SonarQube">
+<img src="https://img.shields.io/badge/OPA_/_Rego-7D9199?style=for-the-badge&logo=openpolicyagent&logoColor=white" alt="OPA">
+<img src="https://img.shields.io/badge/CIS_/_STIG-486581?style=for-the-badge&logo=letsencrypt&logoColor=white" alt="CIS/STIG">
+<br>
+<img src="https://img.shields.io/badge/Loki-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Loki">
+<img src="https://img.shields.io/badge/Tempo-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Tempo">
+<img src="https://img.shields.io/badge/OpenTelemetry-4F62AD?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry">
+<img src="https://img.shields.io/badge/eBPF-C4451D?style=for-the-badge&logo=linux&logoColor=white" alt="eBPF">
+<img src="https://img.shields.io/badge/HAProxy-106DA9?style=for-the-badge&logo=haproxy&logoColor=white" alt="HAProxy">
+<img src="https://img.shields.io/badge/nftables-2E4053?style=for-the-badge&logo=wireguard&logoColor=white" alt="nftables">
+
+</div>
+
+## ⚙️ The pipeline I build
 
 ```mermaid
 flowchart TB
@@ -56,23 +105,9 @@ flowchart TB
     class A,I edge
 ```
 
-## The stack, by layer
+## 📈 Numbers I've shipped
 
-| Layer | Tooling |
-| :--- | :--- |
-| `app` | Go *(primary)* · PHP / Laravel · Java / Spring Boot · Groovy / Grails · Bash |
-| `ci-cd` | Jenkins · GitHub Actions · GitLab CI · Bitbucket |
-| `iac-cac` | Terraform · Ansible · Packer · cloud-init · PXE / netboot |
-| `runtime` | Docker · Kubernetes · Proxmox · QEMU / KVM (QMP) · LXC / LXD · ZFS |
-| `cloud` | AWS — EC2 · EKS · S3 · RDS · IAM · VPC |
-| `data` | PostgreSQL · MySQL · MongoDB · Redis · Elasticsearch · Kafka · RabbitMQ · SQS |
-| `observability` | Prometheus · Grafana · Loki · Tempo · Mimir · Pyroscope · ELK · eBPF · OpenTelemetry |
-| `security` | CIS / STIG hardening · Vault · OPA / Rego · Kyverno · Trivy · Snyk · SonarQube · SAST / DAST · mTLS · 2FA |
-| `network` | Nginx · HAProxy · nftables · OpenVPN · DNS · IPv6 / SLAAC |
-| `reliability` | SLI / SLO / SLA · error budgets · incident response · RCA · postmortems · MTTR / MTTD |
-| `ai` | LLM-based PR review · AI-assisted CI/CD remediation · AI root-cause analysis |
-
-## Signals from production
+<div align="center">
 
 | Result | What it was | Where |
 | :--- | :--- | :--- |
@@ -85,14 +120,16 @@ flowchart TB
 | **~99.9%+** payment availability | Multi-gateway failover with rate limiting and 2FA | Maxcloud |
 | **~50%** faster queries | Targeted indexing + SQL refactoring on high-traffic multi-tenant tables | Fairtech |
 
-## What I'm doing now
+</div>
 
-- Building infrastructure CI/CD in **Jenkins** for Terraform and Ansible — lint, test, security, and cost gates before anything is provisioned.
-- Automating hardened golden images with **Packer**, benchmarked against CIS/STIG and scanned with Trivy.
-- Wiring **AI** into monitoring and CI/CD for root-cause detection and auto-remediation.
-- Cost- and security-aware observability with **Prometheus, Grafana, and ELK** plus automated alerting.
+## 🔭 What I'm doing now
 
-## Selected repositories
+- Infrastructure CI/CD in **Jenkins** for Terraform and Ansible — lint, test, security, and cost gates before anything is provisioned.
+- Hardened golden images with **Packer**, benchmarked against CIS/STIG and scanned with Trivy.
+- **AI** wired into monitoring and CI/CD for root-cause detection and auto-remediation.
+- Cost- and security-aware observability on **Prometheus, Grafana, and ELK** with automated alerting.
+
+## 🚀 Selected repositories
 
 | Repo | What it is |
 | :--- | :--- |
@@ -105,11 +142,11 @@ flowchart TB
 
 <div align="center">
 
-**Education** — B.Sc. Information Systems, Hasanuddin University · GPA 3.82 / 4.00
+**B.Sc. Information Systems** — Hasanuddin University · GPA 3.82 / 4.00
 
-<img src="https://img.shields.io/github/followers/umars28?style=flat-square&logo=github&label=followers&labelColor=0D1117&color=1F6FEB" alt="Followers">
-<img src="https://img.shields.io/github/stars/umars28?affiliations=OWNER&style=flat-square&logo=github&label=stars&labelColor=0D1117&color=1F6FEB" alt="Stars">
+<img src="https://img.shields.io/github/followers/umars28?style=for-the-badge&logo=github&label=Followers&labelColor=0D1117&color=1F6FEB" alt="Followers">
+<img src="https://img.shields.io/github/stars/umars28?affiliations=OWNER&style=for-the-badge&logo=github&label=Stars&labelColor=0D1117&color=1F6FEB" alt="Stars">
 
-<sub>Reach me at <a href="mailto:umarsabirin369@gmail.com">umarsabirin369@gmail.com</a> or on <a href="https://www.linkedin.com/in/umar-sabirin-5896481a5">LinkedIn</a>.</sub>
+<sub>Let's talk infrastructure — <a href="mailto:umarsabirin369@gmail.com">umarsabirin369@gmail.com</a> · <a href="https://www.linkedin.com/in/umar-sabirin-5896481a5">LinkedIn</a></sub>
 
 </div>
