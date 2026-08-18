@@ -28,7 +28,7 @@ building things that stay up
 
 ## Toolbox
 
-| | |
+| Area | Stack |
 | ---: | :--- |
 | **Languages** | Go *(primary)* · PHP / Laravel · Java / Spring Boot · Groovy / Grails · Bash |
 | **Cloud** | AWS — EC2 · EKS · S3 · RDS · IAM · VPC |
