@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="164" viewBox="0 0 280 164" role="img" aria-label="LABS">
+  <defs>
+    <linearGradient id="pg102" x1="0" y1="0" x2="280" y2="164" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="pc102"><rect x="6" y="6" width="268" height="152" rx="12"/></clipPath>
+    <pattern id="pp102" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0 H0 V22" fill="none" stroke="#161B22" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="280" height="164" fill="#010409"/>
+  <g clip-path="url(#pc102)">
+    <rect x="6" y="6" width="268" height="152" fill="#0D1117"/>
+    <rect x="6" y="6" width="268" height="152" fill="url(#pp102)"/>
+    <rect x="6" y="6" width="268" height="152" fill="url(#pg102)"/>
+  </g>
+  <rect x="6" y="6" width="268" height="152" rx="12" fill="none" stroke="#6366F1" stroke-opacity="0.5" stroke-width="1.4"/>
+  <rect x="6" y="6" width="268" height="3" rx="1.5" fill="#6366F1">
+    <animate attributeName="opacity" values="0.45;1;0.45" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="22" y="24" width="34" height="34" rx="9" fill="#0D1117" stroke="#6366F1" stroke-opacity="0.55"/>
+  <text x="39" y="47" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="16" font-weight="700" fill="#6366F1" text-anchor="middle">L</text>
+
+  <text x="66" y="40" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="1.6" fill="#E6EDF3">LABS</text>
+  <text x="66" y="55" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="0.6" fill="#6E7681">live demos on pages</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="11" fill="#8B949E">
+    <text x="24" y="86">· slo / error budget calc</text>
+    <text x="24" y="104">· maglev packet path</text>
+    <text x="24" y="122">· runs in your browser</text>
+  </g>
+
+  <text x="24" y="146" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.4" fill="#6366F1">OPEN LABS</text>
+  <g stroke="#6366F1" stroke-width="1.6" fill="none">
+    <path d="M240 141 H256"/>
+    <path d="M251 136 L256 141 L251 146"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="1.8s" repeatCount="indefinite"/>
+  </g>
+</svg>

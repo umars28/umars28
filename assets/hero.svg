@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="Umar Sabirin — DevOps Engineer, Platform, SRE and Cloud">
+  <defs>
+    <linearGradient id="hEdge" x1="0" y1="0" x2="1200" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="hName" x1="58" y1="0" x2="620" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E6EDF3"/>
+      <stop offset="0.6" stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="hScan" x1="0" y1="0" x2="0" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hGlowLine" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-420 0" to="1220 0" dur="4.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="hGrid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0 H0 V26" fill="none" stroke="#161B22" stroke-width="1"/>
+    </pattern>
+    <clipPath id="hCard">
+      <rect x="12" y="12" width="1176" height="206" rx="14"/>
+    </clipPath>
+    <filter id="hSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="230" fill="#010409"/>
+
+  <g clip-path="url(#hCard)">
+    <rect x="12" y="12" width="1176" height="206" fill="#0D1117"/>
+    <rect x="12" y="12" width="1176" height="206" fill="url(#hGrid)"/>
+    <ellipse cx="220" cy="70" rx="280" ry="110" fill="#6366F1" opacity="0.13" filter="url(#hSoft)"/>
+    <ellipse cx="1000" cy="200" rx="250" ry="100" fill="#22D3EE" opacity="0.10" filter="url(#hSoft)"/>
+    <rect x="12" y="12" width="1176" height="110" fill="url(#hScan)">
+      <animate attributeName="y" values="-90;230;-90" dur="9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="12" y="12" width="1176" height="206" rx="14" fill="none" stroke="url(#hEdge)" stroke-width="1.5" opacity="0.85"/>
+
+  <g stroke="#22D3EE" stroke-width="2" fill="none" opacity="0.9">
+    <path d="M12 46 V26 a14 14 0 0 1 14 -14 H50"/>
+    <path d="M1150 12 H1174 a14 14 0 0 1 14 14 V46"/>
+    <path d="M12 184 V204 a14 14 0 0 0 14 14 H50"/>
+    <path d="M1150 218 H1174 a14 14 0 0 0 14 -14 V184"/>
+  </g>
+
+  <g>
+    <circle cx="46" cy="46" r="5" fill="#FF5F57"/>
+    <circle cx="66" cy="46" r="5" fill="#FEBC2E"/>
+    <circle cx="86" cy="46" r="5" fill="#28C840"/>
+    <text x="112" y="51" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="13" fill="#7D8590">umar@infra:~ — zsh — 120×32</text>
+    <text x="1050" y="51" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="13" fill="#28C840">● ONLINE</text>
+  </g>
+  <path d="M28 66 H1172" stroke="#21262D" stroke-width="1"/>
+  <path d="M28 66 H1172" stroke="url(#hGlowLine)" stroke-width="1.5"/>
+
+  <text x="60" y="102" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="14" fill="#6E7681">$ whoami</text>
+
+  <text x="58" y="156" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="50" font-weight="700" letter-spacing="4" fill="url(#hName)">UMAR SABIRIN</text>
+
+  <text x="60" y="188" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="17" letter-spacing="1.5" fill="#22D3EE">DevOps Engineer&#160;&#160;/&#160;&#160;Platform · SRE · Cloud</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="11" letter-spacing="1">
+    <rect x="1036" y="112" width="104" height="24" rx="12" fill="#0D1117" stroke="#30363D"/>
+    <text x="1088" y="128" fill="#22D3EE" text-anchor="middle">GMT+7 · ID</text>
+
+    <rect x="961" y="146" width="179" height="24" rx="12" fill="#0D1117" stroke="#30363D"/>
+    <text x="1050" y="162" fill="#A78BFA" text-anchor="middle">AVAILABLE FOR WORK</text>
+  </g>
+</svg>

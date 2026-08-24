@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="26" viewBox="0 0 1200 26" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="flow" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#6366F1"/>
+      <stop offset="0.8" stop-color="#A78BFA" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-620 0" to="1220 0" dur="3.6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-400%" width="180%" height="900%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="12" width="1200" height="2" rx="1" fill="#30363D"/>
+  <rect x="0" y="12" width="1200" height="2" rx="1" fill="url(#flow)" filter="url(#soft)"/>
+  <rect x="0" y="12" width="1200" height="2" rx="1" fill="url(#flow)"/>
+
+  <g fill="#22D3EE">
+    <circle cx="120" cy="13" r="3">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="3.6s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="2;4;2" dur="3.6s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="13" r="3" fill="#6366F1">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="3.6s" begin="0.7s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="2;4;2" dur="3.6s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="13" r="4" fill="#A78BFA">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.6s" begin="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="2.5;5;2.5" dur="3.6s" begin="1.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="13" r="3" fill="#6366F1">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="3.6s" begin="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="2;4;2" dur="3.6s" begin="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1080" cy="13" r="3">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="3.6s" begin="2.3s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="2;4;2" dur="3.6s" begin="2.3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g stroke="#30363D" stroke-width="1.4" opacity="0.8">
+    <path d="M120 13 V4 h60"/>
+    <path d="M400 13 V22 h-70"/>
+    <path d="M800 13 V4 h70"/>
+    <path d="M1080 13 V22 h-60"/>
+  </g>
+</svg>

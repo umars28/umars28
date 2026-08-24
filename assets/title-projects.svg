@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="58" viewBox="0 0 1200 58" role="img" aria-label="FEATURED WORK">
+  <defs>
+    <linearGradient id="tl4" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#28C840" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#28C840" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#28C840" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sw4" x1="0" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#28C840" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#28C840" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#28C840" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-220 0" to="1220 0" dur="4.2s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="58" fill="#010409"/>
+  <rect x="0" y="14" width="4" height="30" rx="2" fill="#28C840"/>
+  <rect x="10" y="14" width="4" height="30" rx="2" fill="#28C840" opacity="0.55"/>
+  <rect x="20" y="14" width="4" height="30" rx="2" fill="#28C840" opacity="0.25"/>
+  <text x="42" y="36" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="19" font-weight="700" letter-spacing="3.5" fill="#E6EDF3">FEATURED WORK</text>
+  <text x="271" y="35" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.6" fill="#6E7681">systems · runtimes · backend</text>
+  <path d="M581.4000000000001 29 H1200" stroke="url(#tl4)" stroke-width="1.4"/>
+  <path d="M581.4000000000001 29 H1200" stroke="url(#sw4)" stroke-width="1.4"/>
+  <circle cx="581.4000000000001" cy="29" r="3" fill="#28C840">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+</svg>
