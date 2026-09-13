@@ -18,8 +18,6 @@
 
 <img src="assets/divider-mirror.svg" width="100%" alt="" />
 
-<img src="assets/title-access.svg" width="100%" alt="System access" />
-
 <p align="center">
   <a href="docs/PROJECTS.md"><img src="assets/panel-projects.svg" width="24%" alt="Projects" /></a>
   <a href="docs/STACK.md"><img src="assets/panel-stack.svg" width="24%" alt="Stack" /></a>
